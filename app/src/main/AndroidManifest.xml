@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.hebat.sibat.sibat">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".ui.MainActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.BerandaFragment">
+        </activity>
+        <activity android:name=".ui.LayananFragment">
+        </activity>
+        <activity android:name=".ui.PetanagariFragment">
+        </activity>
+        <activity android:name=".ui.PengaduanFragment">
+        </activity>
+        <activity android:name=".ui.LainnyaFragment">
+        </activity>
+        <activity android:name=".ui.TesActivity">
+        </activity>
+        <activity android:name=".MainFragment">
+        </activity>
+        <activity android:name=".ui.berita.Berita">
+        </activity>
+        <activity android:name=".ui.berita.BeritaAdapter">
+        </activity>
+        <activity android:name=".ui.berita.DetailBerita">
+        </activity>
+    </application>
+
+</manifest>

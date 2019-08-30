@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sicincin HeBat</string>
+    <string name="title_beranda">Sicincin HeBat</string>
+    <string name="title_layanan">Layanan</string>
+    <string name="title_petanagari">Peta Nagari</string>
+    <string name="title_pengaduan">Pengaduan</string>
+    <string name="title_lainnya">Lainnya</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
